@@ -20,6 +20,15 @@ that you can't research anything related to databases while working on it.
 - [ ] DELETE FROM <table> WHERE <condition>
 
 
+## Setup
+
+```
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python src/entrypoint.py
+```
+
 ## Naming
 
 dbw is `ROT-11("SQL")` and is pronounced like the English letter "w".
